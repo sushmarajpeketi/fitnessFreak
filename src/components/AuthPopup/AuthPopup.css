@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
     align-items:center;
+    /* background-color: rgba(0, 0, 0, 0.449); */
     background-color: rgba(0, 0, 0, 0.746);
 }
 
@@ -74,9 +75,19 @@
 /* } */
 
 /* .popup .close{
+    position: relative;
+    top: -110px;
+    right: 10px;
+    left:750px;
+    border-radius: 50%;
+    line-height: 1;
+    /* font-weight: 200px; 
+}  */
+
+.popup .close{
     position: absolute;
     top: 10px;
     right: 10px;
     border-radius: 50%;
     line-height: 0;
-}  */
+}

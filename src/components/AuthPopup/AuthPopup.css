@@ -12,6 +12,7 @@
 }
 
 .authform{
+    justify-content: center;
     display: flex;
     align-items: center;
     background-color: black;
@@ -19,8 +20,8 @@
     /* min-height: 50%; */
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(201, 171, 60, 0.746)
-     
+    box-shadow: 0 0 10px rgba(201, 171, 60, 0.746);
+    height:70%
 }
 
 .authform .left{
@@ -43,6 +44,7 @@
     height: 100%;
     border-left: 1px solid var(--col1);
     padding: 20px;
+    overflow: scroll;
     /* gap: 10px; */
 }
 

@@ -3,6 +3,9 @@ import NavBar from '@/components/NavBar/NavBar'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 import HomeBanner1 from '@/components/HomeBanner1/HomeBanner1'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -22,6 +25,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <NavBar/>
         {children}
+        <ToastContainer/>
         </body>
     </html>
   )

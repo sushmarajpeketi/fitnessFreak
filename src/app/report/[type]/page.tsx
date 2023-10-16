@@ -5,7 +5,7 @@ import './ReportPage.css'
 import { AiFillEdit } from 'react-icons/ai';
 import CalorieIntakePopup from '@/components/ReportFormPopUp/CalorieIntake/CalorieIntakePopup';
 
-const page = () => {
+function page() {
     const chartParams = {
         height: 300
     }
